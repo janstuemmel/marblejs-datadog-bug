@@ -1,0 +1,26 @@
+{
+  "name": "marblejs-datadog-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DD_LOGS_INJECTION=true ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@marblejs/core": "^4.0.3",
+    "@marblejs/http": "^4.0.3",
+    "@marblejs/middleware-body": "^4.0.3",
+    "dd-trace": "^2.7.0",
+    "pino": "^7.11.0",
+    "rxjs": "^7.5.5"
+  }
+}

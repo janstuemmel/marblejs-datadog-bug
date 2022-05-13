@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": [
+      "ES2017",
+      "ES2020.Promise",
+      "ES2019.Array"
+    ],
+    "removeComments": true,
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "incremental": true,
+    "skipLibCheck": true
+  }
+}
